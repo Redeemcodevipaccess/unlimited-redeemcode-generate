@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Redeem Code App - VIP Access</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="brand">
+            <div class="brand-icon">▶</div>
+
+            <div>
+                <div class="brand-name">Redeem Code App</div>
+                <div class="vip-badge">ONLY VIP ACCESS</div>
+            </div>
+        </div>
+
+        <div class="secure-badge">
+            🔒 SECURE
+        </div>
+    </header>
+
+
+    <!-- ================= PAGE 1 ================= -->
+
+    <main id="paymentPage" class="payment-page">
+
+        <section class="hero">
+
+            <div class="vip-title">
+                V I P &nbsp; A C C E S S
+            </div>
+
+            <h1>
+                ONLY VIP MEMBERS<br>
+                CAN USE THIS APP
+            </h1>
+
+            <p class="hero-description">
+                Get access to available redeem code rewards as provided by the seller.
+            </p>
+
+        </section>
+
+
+        <!-- VIP CARD -->
+        <section class="vip-card">
+
+            <h2>REDEEM CODE APP — VIP ACCESS</h2>
+
+            <p>
+                Pay ₹49 to Get Redeem Code App Access.
+            </p>
+
+        </section>
+
+
+        <!-- PAYMENT BOX -->
+        <section class="payment-box">
+
+            <div class="payment-heading">
+                🔥 &nbsp; TAP HERE TO PAY & UNLOCK &nbsp; 🔥
+            </div>
+
+            <button id="payBtn" class="pay-button">
+                💳 &nbsp; PAY ₹49
+            </button>
+
+            <div class="payment-note">
+                Continue to the payment screen
+            </div>
+
+        </section>
+
+
+        <!-- SPECIAL OFFER -->
+        <section class="offer-card">
+
+            <div class="offer-title">
+                SPECIAL OFFER
+            </div>
+
+            <div class="old-price">
+                ₹499
+            </div>
+
+            <div class="main-price">
+                ₹49
+            </div>
+
+            <div class="offer-text">
+                SPECIAL OFFER — ₹49 ONLY
+            </div>
+
+            <div class="timer-box">
+                ⏱ OFFER EXPIRES IN:
+                <span id="timer">10:00</span>
+            </div>
+
+        </section>
+
+
+        <!-- DISCLAIMER -->
+        <section class="disclaimer">
+
+            <h3>IMPORTANT DISCLAIMER</h3>
+
+            <p>
+                Please read this information carefully before making any payment.
+            </p>
+
+            <p>
+                The ₹49 payment is for access to the Redeem Code App experience only.
+                We do not guarantee that any redeem code displayed or provided through
+                the app will be valid, active, or successfully redeemable on any
+                third-party platform.
+            </p>
+
+            <p>
+                The app is provided as a demonstration/service interface, and its
+                appearance or functionality may differ from any promotional material.
+            </p>
+
+            <p>
+                By proceeding with your payment, you acknowledge that you have read
+                and understood this disclaimer and are making the payment voluntarily.
+            </p>
+
+            <p>
+                Redeem Code App is not affiliated with, endorsed by, or sponsored by
+                Google Play.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= PAYMENT MODAL ================= -->
+
+    <div id="paymentModal" class="modal">
+
+        <div class="modal-content">
+
+            <button id="closeBtn" class="close-btn">
+                ×
+            </button>
+
+            <div class="modal-small-title">
+                VIP PAYMENT
+            </div>
+
+            <h2>
+                Pay ₹49
+            </h2>
+
+            <p class="modal-description">
+                Scan the QR code below to make the payment.
+            </p>
+
+
+            <div class="qr-container">
+                <img src="qr.jpg" alt="Payment QR Code">
+            </div>
+
+
+            <div class="amount-title">
+                PAYMENT AMOUNT
+            </div>
+
+            <div class="amount">
+                ₹49
+            </div>
+
+
+            <!-- DISABLED UNTIL VERIFIED PAYMENT -->
+            <button id="continueBtn" class="continue-btn" disabled>
+                CONTINUE
+            </button>
+
+            <p class="continue-note">
+                Complete the payment to continue.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= PAGE 2 ================= -->
+
+    <main id="codePage" class="code-page">
+
+        <button id="backBtn" class="back-btn">
+            ←
+        </button>
+
+        <div class="code-container">
+
+            <div class="vip-title">
+                V I P &nbsp; A C C E S S
+            </div>
+
+            <h1>
+                YOUR REDEEM CODE
+            </h1>
+
+            <div id="redeemCode" class="redeem-code">
+                ****************
+            </div>
+
+            <button id="newCodeBtn" class="new-code-btn">
+                ↻ &nbsp; CREATE NEW CODE
+            </button>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 Redeem Code App • VIP Access
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
